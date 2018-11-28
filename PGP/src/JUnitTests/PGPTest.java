@@ -1,22 +1,23 @@
-package JUnitTests;
+package JUnitTests; 
 
-import static org.junit.Assert.*;
-import org.junit.Test;
+//import static org.junit.Assert.*; 
+import org.junit.Test; 
+
+//import PGPpackage.PGPclass; 
+import PGPpackage.*; 
+
+public class PGPTest { 
 
 
-
-import PGPpackage.PGPclass;
-
-public class PGPTest {
-
-	@Test
-	public void test() {
-		PGPclass q;
+@Test 
+public void test() 
+{ 
+		PGPs s; 
 		
-		q = new PGPclass(100, 40, 50);
-		assertEquals(40, q.TotalFuelConsumption, 0);
-		assertEquals(2000, q.TotalSum, 0);
+		//test 1 
+		s = new PGPs(""); 
+		equals(s.Sum); 
 
-	}
+	} 
 
 }
